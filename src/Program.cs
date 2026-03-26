@@ -1,17 +1,17 @@
 ﻿using CuidadoMascotas.Entidades;
 using CuidadoMascotas.Servicios;
+using CuidadoMascotas.Contratos; // Agrega esta línea
 
-// 1. Primero creas el servicio de cuidado (que implementa ICuidado)
-var miServicio = new CuidadoBasico();
+// 1. Creas el servicio
+var miServicio = new CuidadoBasico(); 
 
-// 2. Creas al perro y LE PASAS el servicio por el constructor (como pide tu código)
-var miPerro = new Perro(miServicio);
+// 2. Creas al perro pasandole el servicio
+var miPerro = new Perro(miServicio); 
 
-// 3. (Opcional) Si quieres que tenga nombre, asígnale valores a las propiedades
 miPerro.Nombre = "Fido";
 miPerro.Edad = 3;
 
-// 4. Llamas al método correcto que definiste en tu clase Perro
+// 3. Ejecutas
 miPerro.MostrarInformacion();
 miPerro.RealizarCuidado();
 
