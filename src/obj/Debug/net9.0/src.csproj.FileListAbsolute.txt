@@ -12,3 +12,4 @@ C:\Users\lauri\OneDrive\CUIDADO DE MASCOTAS TP1\CUIDADO-DE-MASCOTAS-TP1\src\obj\
 C:\Users\lauri\OneDrive\CUIDADO DE MASCOTAS TP1\CUIDADO-DE-MASCOTAS-TP1\src\obj\Debug\net9.0\src.pdb
 C:\Users\lauri\OneDrive\CUIDADO DE MASCOTAS TP1\CUIDADO-DE-MASCOTAS-TP1\src\obj\Debug\net9.0\src.genruntimeconfig.cache
 C:\Users\lauri\OneDrive\CUIDADO DE MASCOTAS TP1\CUIDADO-DE-MASCOTAS-TP1\src\obj\Debug\net9.0\ref\src.dll
+C:\Users\lauri\OneDrive\CUIDADO DE MASCOTAS TP1\CUIDADO-DE-MASCOTAS-TP1\src\obj\Debug\net9.0\src.sourcelink.json
