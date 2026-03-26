@@ -1,18 +1,18 @@
 ﻿using CuidadoMascotas.Entidades;
 using CuidadoMascotas.Servicios;
-using CuidadoMascotas.Contratos; // Agrega esta línea
+using CuidadoMascotas.Contratos;
 
 // 1. Creas el servicio
-var miServicio = new CuidadoBasico();
+var miServicio = new CuidadoPremium();
 
-// 2. Creas al perro pasandole el servicio
+// 2. Creas al perro y le asignas las propiedades dentro de las llaves
 var miPerro = new Perro(miServicio)
 {
     Nombre = "Fido",
     Edad = 3
 };
 
-// 3. Ejecutas
+// 3. Ejecutas los métodos
 miPerro.MostrarInformacion();
 miPerro.RealizarCuidado();
 
