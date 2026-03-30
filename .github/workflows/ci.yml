@@ -11,19 +11,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: 📥 Clonar repositorio
+    - name:  Clonar repositorio
       uses: actions/checkout@v4
 
-    - name: 🧰 Instalar .NET
+    - name:  Instalar .NET
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: '8.0.x'
 
-    - name: 📦 Restaurar dependencias
+    - name:  Restaurar dependencias
       run: dotnet restore
 
-    - name: 🏗️ Compilar proyecto
+    - name:  Compilar proyecto
       run: dotnet build --no-restore --configuration Release
 
-    - name: 🧪 Ejecutar tests
+    - name:  Ejecutar tests
       run: dotnet test --no-build --verbosity normal

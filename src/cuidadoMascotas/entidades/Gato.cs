@@ -7,4 +7,5 @@ namespace CuidadoMascotas.Entidades
             Console.WriteLine($"Gato: {Nombre}, Edad: {Edad}");
         }
     }
+
 }
