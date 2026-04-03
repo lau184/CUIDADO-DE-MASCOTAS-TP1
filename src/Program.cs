@@ -1,6 +1,5 @@
 ﻿using CuidadoMascotas.Entidades;
 using CuidadoMascotas.Servicios;
-using CuidadoMascotas.Contratos;
 
 // 1. Creas el servicio
 var miServicio = new CuidadoPremium();

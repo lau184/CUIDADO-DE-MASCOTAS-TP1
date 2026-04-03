@@ -1,4 +1,3 @@
-using Xunit;
 using CuidadoMascotas.Utilidades;
 
 public class CalculadoraTests
