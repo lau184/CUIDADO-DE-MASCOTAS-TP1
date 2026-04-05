@@ -7,7 +7,7 @@ namespace CuidadoMascotas.Servicios
     {
         public void Cuidar()
         {
-            Console.WriteLine("Cuidado básico: comida y agua");
+            Console.WriteLine("Cuidado básico incluye: comida y agua");
         }
     }
 }

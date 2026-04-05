@@ -7,7 +7,7 @@ namespace CuidadoMascotas.Servicios
     {
         public void Cuidar()
         {
-            Console.WriteLine("Cuidado premium: baño, paseo y mimos");
+            Console.WriteLine("Cuidado premium incluye: baño, paseo , comida especial y atención personalizada.");
         }
     }
 }

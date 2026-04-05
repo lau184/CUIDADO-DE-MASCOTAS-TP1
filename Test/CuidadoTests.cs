@@ -8,9 +8,9 @@ public class CuidadoTests
     {
         var cuidado = new CuidadoBasico();
 
-        var exception = Record.Exception(() => cuidado.Cuidar());
+        var exception = Record.Exception(() => cuidado.Cuidar());  //registra cualquier excepción que pueda ocurrir al llamar al método Cuidar del cuidado básico
 
-        Assert.Null(exception);
+        Assert.Null(exception);              //verifica que no se haya lanzado ninguna excepción, lo que indica que el método Cuidar del cuidado básico funciona correctamente sin errores
     }
 
     [Fact]

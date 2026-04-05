@@ -20,8 +20,8 @@ public class GatoTests
     {
         Gato gato = new Gato();
 
-        var exception = Record.Exception(() => gato.MostrarInformacion());
+        var exception = Record.Exception(() => gato.MostrarInformacion()); //registra cualquier excepcion que pueda ocurrir al llamar al método MostrarInformacion del gato
 
-        Assert.Null(exception);
+        Assert.Null(exception); //verifica que no se haya lanzado ninguna excepcion lo que indica que el método MostrarInformacion del gato funcione
     }
 }
