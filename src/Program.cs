@@ -16,6 +16,6 @@ public class Program
         miPerro.MostrarInformacion();
         miPerro.RealizarCuidado();
 
-        Console.WriteLine("Proceso finalizado.");
+        Console.WriteLine("Proceso finalizado."); //
     }
 }
